@@ -1,0 +1,30 @@
+#submit-cont {
+    display: table-cell;
+}
+
+#message-cont {
+    display: table-cell;
+    width: 100%
+}
+
+body {
+    padding: 20px;
+}
+
+#logo {
+    color: #537098;
+}
+
+#message {
+    border-bottom: 1px solid #537098;
+    box-shadow: 0 1px 0 0 #537098;
+    color: #537098;
+}
+
+#submit {
+    background-color: #537098;
+}
+
+#incoming {
+    color: #537098;
+}
