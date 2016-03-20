@@ -1,3 +1,7 @@
+* {
+    color: #537098;
+}
+
 #submit-cont {
     display: table-cell;
 }
@@ -27,4 +31,9 @@ body {
 
 #incoming {
     color: #537098;
+}
+
+#login-google {
+    background-color: #537098;
+    float: right;
 }
