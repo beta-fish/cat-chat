@@ -14,40 +14,51 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
         <title>Cat Chat</title>
+        
+        <meta name="viewport" width="device-width">
+        
+        <link rel="manifest" href="manifest.json">
+        <meta name="mobile-web-app-capable" content="yes">
+        
+        <link rel="icon" href="icon.png">
     </head>
     <body>
         
-        <div class="menu-bar">
-            &nbsp;
-            <img src="cat-chat.png" width="50px" id="profile-image">
-            &nbsp;
+        
+        
+        <div class="container">
+            <div class="row">
+                <div class="col m1">
+                    <img src="icon.png" width="50px" id="profile-image">
+                </div>
+                
+                <div class="col m10">&nbsp;</div>
+                
+                <div class="col m1">
+                    <a class="waves-effect  waves-light btn" id="login-google">
+                       <i class="material-icons" style="color:white;">assignment_ind</i> 
+                    </a>
+                </div>
+            </div>
             
-            
-            
-            <a class="waves-effect waves-light btn" id="login-google">
-                <i class="material-icons" style="color:white;">assignment_ind</i>
-            </a>
+            <div class="row">
+                <div class="col m11">
+                    <input type="text" id="message" placeholder="MESSAGE">
+                </div>
+                <div class="col m1">
+                    <a class="waves-effect waves-light btn" id="submit">
+                        <i class="material-icons" style="color:white;">send</i>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div id="incoming-cont" class="floaw-text">
+                    <div id="incoming"></div>
+                </div>
+            </div>
         </div>
         
-        <a id="profile-name"></a>
         
-        <br>
-        &nbsp;
-        <br>
-        <br>
-        <img src="cat-chat.png" alt="Cat Chat Logo">
-        
-        <h1 style="float:right;" id="logo">Cat Chat</h1>
-        
-        <div id="message-cont">
-            <input type="text" id="message" placeholder="MESSAGE">
-        </div>
-        
-        <div id="submit-cont">
-            <a class="waves-effect waves-light btn" id="submit"><i class="material-icons" style="color:white;">send</i></a>
-        </div>
-        
-        <div id="incoming"></div>
         
         <script src="script.js"></script>
     </body>

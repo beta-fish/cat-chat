@@ -11,6 +11,14 @@
     width: 100%
 }
 
+#profile-image-cont {
+    display: table-cell;
+}
+
+#login-google-cont {
+    display: table-cell;
+}
+
 body {
     padding: 20px;
 }
@@ -35,5 +43,22 @@ body {
 
 #login-google {
     background-color: #537098;
-    float: right;
+}
+
+#menu-bar {
+    background-color: #ecf0f1;
+    display: table-row;
+}
+
+#incoming-cont {
+    height: px;
+    display: table-row;
+}
+
+#outgoing-cont {
+    display: table-row;
+}
+
+#incoming {
+    width: 100%;
 }
