@@ -23,43 +23,42 @@
         <link rel="icon" href="icon.png">
     </head>
     <body>
-        
-        
-        
+        <br>
         <div class="container">
-            <div class="row">
-                <div class="col m1">
-                    <img src="icon.png" width="50px" id="profile-image">
-                </div>
-                
-                <div class="col m10">&nbsp;</div>
-                
-                <div class="col m1">
-                    <a class="waves-effect  waves-light btn" id="login-google">
-                       <i class="material-icons" style="color:white;">assignment_ind</i> 
-                    </a>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col m11">
-                    <input type="text" id="message" placeholder="MESSAGE">
-                </div>
-                <div class="col m1">
-                    <a class="waves-effect waves-light btn" id="submit">
-                        <i class="material-icons" style="color:white;">send</i>
-                    </a>
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">Compose</span>
+                    <div class="row">
+                        <div class="col s10">
+                            <div class="input-field">
+                                <input placeholder="MESSAGE" id="message">
+                            </div>
+                        </div>
+                        <div class="col s1">
+                            <div class="btn-floating btn-large waves-effect eaves-light blue" id="submit">
+                                <i class="material-icons">send</i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div id="incoming-cont" class="floaw-text">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">Messages</span>
                     <div id="incoming"></div>
                 </div>
             </div>
         </div>
         
-        
-        
+        <div class="fixed-action-btn" style="bottom: 45; right: 45;">
+            <a class="btn-floating red btn-large">
+                <i class="material-icons">settings</i>
+            </a>
+            <ul>
+                <li><img id="profile-image" src="icon.png" style="width: 35px;"></li>
+                <li><a class="btn-floating blue" id="login-google"><i class="material-icons">perm_identity</i></a></li>
+            </ul>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
