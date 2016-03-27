@@ -1,0 +1,40 @@
+#message {
+    border-bottom: #263238;
+    box-shadow: 0 1px 0 0 #263238;
+}
+
+#submit {
+    background-color: #546e7a;
+}
+
+#settings {
+    background-color: #546e7a;
+}
+
+#login-google {
+    background-color: #607d8b;
+}
+
+#themes {
+    background-color: #78909c;
+}
+
+body {
+    background-color: #37474f;
+}
+
+* {
+    color: #eceff1;
+}
+
+.card {
+    background-color: #455a64;
+}
+
+.modal {
+    background-color: #263238;
+}
+
+#default-theme {
+    color: #263238;
+}

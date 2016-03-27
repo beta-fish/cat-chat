@@ -32,6 +32,18 @@ $('#message').keypress(function (e) {
   }
 });   
 
+//modal
+$('#themes').click(function(){
+    $('#theme-select').openModal();
+});
+
+$('#dark-theme').click(function(){
+    $('#theme-style').attr("href", "dark.css");
+});
+$('#defualt-theme').click(function(){
+    $('#theme-style').attr("href", "default.css");
+});
+
 $('#submit').click(function() {
     
     var message = $('#message').val();
@@ -46,4 +58,6 @@ dataRef.on('child_added', function(snapshot) {
     
     $('#incoming').prepend(incoming.message);
     $('#incoming').prepend("<br>");
+    
+    document.getElementById('alert').play();
 })

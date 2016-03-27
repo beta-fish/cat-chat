@@ -1,0 +1,20 @@
+#message {
+    border-bottom: #4caf50;
+    box-shadow: 0 1px 0 0 #4caf50;
+}
+
+#submit {
+    background-color: #2196f3;
+}
+
+#settings {
+    background-color: #f44336;
+}
+
+#login-google {
+    background-color: #2196f3;
+}
+
+#themes {
+    background-color: #ffab40;
+}

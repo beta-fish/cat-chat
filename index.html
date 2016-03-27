@@ -23,6 +23,9 @@
         <link rel="icon" href="icon.png">
     </head>
     <body>
+        
+        <link rel="stylesheet" href="default.css" id="theme-style">
+        
         <br>
         <div class="container">
             <div class="card">
@@ -35,7 +38,7 @@
                             </div>
                         </div>
                         <div class="col s1">
-                            <div class="btn-floating btn-large waves-effect eaves-light blue" id="submit">
+                            <div class="btn-floating btn-large waves-effect eaves-light" id="submit">
                                 <i class="material-icons">send</i>
                             </div>
                         </div>
@@ -44,21 +47,37 @@
             </div>
             <div class="card">
                 <div class="card-content">
-                    <span class="card-title">Messages</span>
+                    <span class="card-title">Inbox</span>
                     <div id="incoming"></div>
                 </div>
             </div>
         </div>
         
         <div class="fixed-action-btn" style="bottom: 45; right: 45;">
-            <a class="btn-floating red btn-large">
+            <a class="btn-floating btn-large" id="settings">
                 <i class="material-icons">settings</i>
             </a>
             <ul>
                 <li><img id="profile-image" src="icon.png" style="width: 35px;"></li>
-                <li><a class="btn-floating blue" id="login-google"><i class="material-icons">perm_identity</i></a></li>
+                
+                <li><a class="btn-floating " id="login-google"><i class="material-icons">perm_identity</i></a></li>
+                
+                <li><a class="btn-floating modal-trigger" id="themes" href="#theme-select"><i class="material-icons">view_day</i></a></li>
             </ul>
         </div>
+        
+        <div class="modal" id="theme-select">
+            <div class="modal-content">
+                <h4>Select a Theme</h4>
+                <ul class="collection">
+                    <li class="collection-item" id="defualt-theme">Default</li>
+                    <li class="collection-item" id="dark-theme">Dark</li>
+                </ul>
+            </div>
+        </div>
+        
+        <audio src="alert.mp3"id="alert"></audio>
+        
         <script src="script.js"></script>
     </body>
 </html>
