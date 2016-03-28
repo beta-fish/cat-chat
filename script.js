@@ -51,6 +51,8 @@ $('#submit').click(function() {
     dataRef.push({message: userName + " Says: " + message});
     
     $('#message').val('');
+    
+     Materialize.toast('Message Sent', 4000);
 })
 
 dataRef.on('child_added', function(snapshot) {
@@ -58,6 +60,5 @@ dataRef.on('child_added', function(snapshot) {
     
     $('#incoming').prepend(incoming.message);
     $('#incoming').prepend("<br>");
-    
     document.getElementById('alert').play();
 })

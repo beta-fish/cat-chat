@@ -1,0 +1,48 @@
+/* 
+
+Theme template 
+
+By editing this template you accept that anything and everything that you put in this document becomes property of Cat Chat. You accept that your theme might not be include in the final Cat Chat Web App.
+Please be mindful when using this Stylesheet. Any external references such as fonts, @include links, ect. WILL BE REMOVED. If you would like to include an external font, please contact a Cat Chat developer.
+
+March 28 2016
+
+*/
+
+
+#message {
+    border-bottom: #some-color;
+    box-shadow: 0 1px 0 0 #same-color-as-above;
+} /* compose text box underlien color */
+
+#submit {
+    background-color: #some-color;
+} /* send button color*/
+
+#settings {
+    background-color: #some-color;
+} /* settings button color*/
+
+#login-google {
+    background-color: #some-color;
+} /* login button color*/
+
+#themes {
+    background-color: #some-color;
+} /* theme selector button color*/
+
+body {
+    background-color: #some-color;
+} /* body */
+
+* {
+    color: #some-color;
+} /* all elements (optiona) */
+
+.card {
+    background-color: #some-color;
+} /* inbox/compose cards */
+
+.modal {
+    background-color: #some-color;
+} /* Popup theme selector color */
